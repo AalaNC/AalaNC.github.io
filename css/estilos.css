@@ -1,0 +1,164 @@
+body{
+    font-family: cursive;
+    background-image: url(/img/css-gradient-background.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Header*/
+#logoAP{
+    width: 50px;
+}
+
+header img{
+    width: 25px;
+}
+
+.redes{
+    margin-right: 0.5em;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Nav*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 120px;
+    height: 130px;
+    border-radius: 40%;
+    box-shadow: 1px 1px 1px white;
+}
+
+.anclajes{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+    width: 49%;
+    border: 1px solid white;
+    border-radius: 10%;
+    margin: 2px;
+    text-align: center;
+}
+
+nav ul li a:link, nav ul li a:visited{
+    
+    border-radius: 10%;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    background: rgb(232, 231, 231);
+    color: rgb(224, 211, 194);
+}
+
+
+
+
+/*Section*/
+
+article{
+    padding: 40px 0 20px 0;
+    border-bottom: white solid 1px;
+}
+
+article h2{
+    float: left;
+    border-bottom: solid 2px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+article ul{
+    margin-left: 10%;
+    margin-bottom: 1.5em;
+}
+
+article p{
+    margin-left: 13%;
+}
+
+article ul li{
+    margin-left: 10px;
+    list-style: square;
+}
+
+.lenguajes button{
+    background: transparent;
+    border: none;
+    margin-left: 25%;
+}
+
+.lenguajes img{
+    width: 100px;
+}
+
+.contenedor p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50%;
+    margin-right: 50px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: none;
+}
+
+.container a, .container button{
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    text-align: center;
+    border: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.container a:hover{
+    opacity: .7;
+}
+
+/*Footer*/
+footer{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.volver{
+    text-align: left;
+}
+
+.volver a:link, .volver a:visited{
+    color: white;
+}
+
+.volver a:hover{
+    text-decoration: none;
+}
